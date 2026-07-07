@@ -187,6 +187,47 @@ I will always care for her 💖`;
    if (msg.includes("bye"))
       return "Goodbye 👋 See you soon!";
 
+       if (msg.includes("movie")) {
+    return "I like action, comedy, sci-fi, and adventure movies. Which movie do you want to know about?";
+}
+
+if (msg.includes("best movie")) {
+    return "Some popular movies are Interstellar, Inception, The Dark Knight, Avengers: Endgame, and 3 Idiots.";
+}
+
+if (msg.includes("comedy movie")) {
+    return "You can watch 3 Idiots, Jumanji, or Home Alone.";
+}
+
+if (msg.includes("action movie")) {
+    return "Try John Wick, Mad Max: Fury Road, or Avengers: Endgame.";
+}
+
+if (msg.includes("health")) {
+    return "Good health comes from a balanced diet, regular exercise, enough sleep, and staying hydrated.";
+}
+
+if (msg.includes("fever")) {
+    return "If you have a high fever or it lasts for more than a couple of days, consult a doctor.";
+}
+
+if (msg.includes("headache")) {
+    return "Rest, drink water, and avoid excessive screen time. If the headache is severe or persistent, seek medical advice.";
+}
+
+if (msg.includes("cold")) {
+    return"Drink warm fluids, get enough rest, and consult a doctor if symptoms become severe.";
+}
+
+if (msg.includes("exercise")) {
+     return "Aim for at least 30 minutes of physical activity most days of the week.";
+}
+
+if (msg.includes("water")) {
+   return"Most adults benefit from drinking enough water throughout the day. Your needs vary based on activity and climate.";
+}
+
+
    return "🤖 I don't understand yet";
    </script>
     </body>
